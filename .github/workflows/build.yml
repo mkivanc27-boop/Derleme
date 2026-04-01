@@ -19,7 +19,7 @@ jobs:
           chmod +x gradlew
           ./gradlew build
       - name: Upload JAR
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: dashword-jar
           path: dashword_mod/build/libs/*.jar
